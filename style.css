@@ -1,0 +1,169 @@
+img{
+    width:100px;
+    margin-top: 10px;
+}
+#main-row{
+    background-color: rgb(209, 255, 210);
+}
+#img-col img{
+    width: 50%;
+    margin-left: 20%;
+} 
+
+#img-col-2 img{
+    width: 50%;
+    margin-left: 20%;
+}
+#img-col-3 img{
+    width: 50%;
+    margin-left: 20%;
+    display: none;
+} 
+#img-col-4 img{
+    width: 50%;
+    margin-left: 20%;
+    display: none;
+}
+#img-col-5 img{
+    width: 50%;
+    margin-left: 20%;
+    display: none;
+} 
+#img-col-6 img{
+    width: 50%;
+    margin-left: 20%;
+    display: none;
+}
+#table-3,#table-4{
+    display: none;
+}
+#table-5,#table-6{
+    display: none;
+}
+#table{
+    height: 200px;
+    margin-left: 5%;
+    
+}
+#table-2{
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 15%;   
+}
+#table-3{
+    height: 200px;
+    margin-left: 5%;
+    
+}
+#table-4{
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 15%;   
+}
+#table-5{
+    height: 200px;
+    margin-left: 5%;
+
+}
+#table-6{
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 15%;   
+}
+
+#msg{
+    display: none;
+   
+}
+#msg-1{
+    display: none;
+}
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE VIEW  */
+@media(max-width:400px){
+
+    
+    #nav-bar button{
+        font-size:6px;
+        padding-top: 6px;
+
+    }
+    #header h1{
+        font-size: 20px;
+        margin-top: 14px;
+    }
+    
+    
+    #table{
+       min-height: 10px;
+        width:700px;
+        font-size: 8px;
+        
+    }
+    #table-2{
+        min-height: 10px;
+        width: 9px;
+        font-size: 7px;
+        font-weight: 200px;
+    }
+    #table-3{
+        min-height: 10px;
+         width:700px;
+         font-size: 8px;
+         
+     }
+     #table-4{
+         min-height: 10px;
+         width: 9px;
+         font-size: 7px;
+         font-weight: 200px;
+     }
+     #table-5{
+        min-height: 10px;
+         width:700px;
+         font-size: 8px;
+         
+     }
+     #table-6{
+         min-height: 10px;
+         width: 9px;
+         font-size: 7px;
+         font-weight: 200px;
+     }
+     #img-col img{
+       
+        width:80%;
+        margin-top: 50%;
+    }
+    #img-col-2 img{
+        width:100%;
+
+    }
+    
+    #img-col-3 img{
+       
+        width:80%;
+        
+    }
+    #img-col-4 img{
+        width:100%;
+
+    }
+    #img-col-5 img{
+       
+        width:80%;
+       
+    }
+    #img-col-6 img{
+        width:100%;
+
+    }
+
+    
+    
+}
